@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render LogItem correctly 1`] = `
+<li
+  className="collection-item"
+>
+  <a
+    className="modal-trigger blue-text"
+    href="#edit-log-modal"
+    onClick={[Function]}
+  >
+    Fixed hard drive
+  </a>
+  <br />
+  <span
+    className="grey-text"
+  >
+    <span
+      className="black-text"
+    >
+      ID #
+      1
+    </span>
+     last edited by
+     
+    <span
+      className="black-text"
+    >
+      Tony Stark
+    </span>
+     on
+     
+    <t
+      ago={false}
+      calendar={false}
+      decimal={false}
+      element={null}
+      filter={[Function]}
+      format="MMMM Do YYYY, hh:mm:ss a"
+      fromNow={false}
+      interval={60000}
+      local={false}
+      onChange={[Function]}
+      titleFormat=""
+      toNow={false}
+      unit={null}
+      unix={false}
+      utc={false}
+      withTitle={false}
+    >
+      2019-08-15T10:27:16.427Z
+    </t>
+  </span>
+  <a
+    className="secondary-content"
+    href="#!"
+    onClick={[Function]}
+  >
+    <i
+      className="material-icons grey-text"
+    >
+      delete
+    </i>
+  </a>
+</li>
+`;

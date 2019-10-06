@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render LogList correctly 1`] = `
+<ul
+  className="collection with-header"
+>
+  <li
+    className="collection-header"
+  >
+    <h4
+      className="center"
+    >
+      System Logs
+    </h4>
+  </li>
+  <LogItem
+    deleteLog={[MockFunction]}
+    key="1"
+    log={
+      Object {
+        "attention": true,
+        "date": "2019-08-15T10:27:16.427Z",
+        "id": 1,
+        "message": "Fixed hard drive",
+        "tech": "Tony Stark",
+      }
+    }
+    setCurrent={[MockFunction]}
+  />
+  <LogItem
+    deleteLog={[MockFunction]}
+    key="2"
+    log={
+      Object {
+        "attention": false,
+        "date": "2019-08-15T10:27:16.427Z",
+        "id": 2,
+        "message": "Replaced router",
+        "tech": "Peter Parker",
+      }
+    }
+    setCurrent={[MockFunction]}
+  />
+  <LogItem
+    deleteLog={[MockFunction]}
+    key="3"
+    log={
+      Object {
+        "attention": false,
+        "date": "2019-08-15T10:27:16.427Z",
+        "id": 3,
+        "message": "Added random stuff",
+        "tech": "Stephen Strange",
+      }
+    }
+    setCurrent={[MockFunction]}
+  />
+</ul>
+`;
+
+exports[`should render Preloader if loading 1`] = `<Preloader />`;

@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render LogForm correctly 1`] = `
+<Fragment>
+  <div
+    className="modal-content"
+  >
+    <h4
+      className="center"
+    >
+      Add
+       System Log
+    </h4>
+    <div
+      className="row"
+    >
+      <div
+        className="input-field"
+      >
+        <input
+          name="message"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <label
+          className="active"
+          htmlFor="message"
+        >
+          Log Message
+        </label>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="input-field"
+      >
+        <select
+          className="browser-default"
+          name="tech"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            disabled={true}
+            value=""
+          >
+            Select Technician
+          </option>
+          <Connect(TechSelectOptions) />
+        </select>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="input-field"
+      >
+        <label>
+          <input
+            checked={false}
+            className="filled-in"
+            onChange={[Function]}
+            type="checkbox"
+            value={false}
+          />
+          <span>
+            Needs Attention
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    className="modal-footer"
+  >
+    <a
+      className="waves-light blue btn"
+      href="#!"
+      onClick={[Function]}
+    >
+      Submit
+    </a>
+  </div>
+</Fragment>
+`;
+
+exports[`should render LogForm correctly with provided log 1`] = `
+<Fragment>
+  <div
+    className="modal-content"
+  >
+    <h4
+      className="center"
+    >
+      Edit
+       System Log
+    </h4>
+    <div
+      className="row"
+    >
+      <div
+        className="input-field"
+      >
+        <input
+          name="message"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="input-field"
+      >
+        <select
+          className="browser-default"
+          name="tech"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            disabled={true}
+            value=""
+          >
+            Select Technician
+          </option>
+          <Connect(TechSelectOptions) />
+        </select>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="input-field"
+      >
+        <label>
+          <input
+            checked={false}
+            className="filled-in"
+            onChange={[Function]}
+            type="checkbox"
+            value={false}
+          />
+          <span>
+            Needs Attention
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    className="modal-footer"
+  >
+    <a
+      className="waves-light blue btn"
+      href="#!"
+      onClick={[Function]}
+    >
+      Submit
+    </a>
+  </div>
+</Fragment>
+`;

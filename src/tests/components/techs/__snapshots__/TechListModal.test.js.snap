@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Loading info if loading 1`] = `
+<div
+  className="modal"
+  id="tech-list-modal"
+>
+  <div
+    className="modal-content"
+  >
+    <h4
+      className="center"
+    >
+      Technician List
+    </h4>
+    <p
+      className="center"
+    >
+      Loading...
+    </p>
+  </div>
+  <div
+    className="modal-footer"
+  >
+    <a
+      className="modal-close waves-light blue btn"
+      href="#!"
+    >
+      Close
+    </a>
+  </div>
+</div>
+`;
+
+exports[`should render TechListModal correctly 1`] = `
+<div
+  className="modal"
+  id="tech-list-modal"
+>
+  <div
+    className="modal-content"
+  >
+    <h4
+      className="center"
+    >
+      Technician List
+    </h4>
+    <ul
+      className="collection"
+    >
+      <TechItem
+        key="1"
+        onDelete={[Function]}
+        onEdit={[Function]}
+        tech={
+          Object {
+            "firstName": "Tony",
+            "id": 1,
+            "lastName": "Stark",
+          }
+        }
+      />
+      <TechItem
+        key="2"
+        onDelete={[Function]}
+        onEdit={[Function]}
+        tech={
+          Object {
+            "firstName": "Peter",
+            "id": 2,
+            "lastName": "Parker",
+          }
+        }
+      />
+      <TechItem
+        key="3"
+        onDelete={[Function]}
+        onEdit={[Function]}
+        tech={
+          Object {
+            "firstName": "Stephen",
+            "id": 3,
+            "lastName": "Strange",
+          }
+        }
+      />
+    </ul>
+  </div>
+  <div
+    className="modal-footer"
+  >
+    <a
+      className="modal-close waves-light blue btn"
+      href="#!"
+    >
+      Close
+    </a>
+  </div>
+</div>
+`;

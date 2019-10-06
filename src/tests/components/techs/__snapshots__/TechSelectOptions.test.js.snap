@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TechSelectOptions correctly 1`] = `
+<Fragment>
+  <option
+    key="1"
+    value="Tony Stark"
+  >
+    Tony Stark
+  </option>
+  <option
+    key="2"
+    value="Peter Parker"
+  >
+    Peter Parker
+  </option>
+  <option
+    key="3"
+    value="Stephen Strange"
+  >
+    Stephen Strange
+  </option>
+</Fragment>
+`;

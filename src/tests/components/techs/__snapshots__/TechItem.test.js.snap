@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TechItem correctly 1`] = `
+<li
+  className="collection-item"
+>
+  <a
+    className="blue-text"
+    href="#!"
+    onClick={[MockFunction]}
+  >
+    Tony
+     
+    Stark
+  </a>
+  <span
+    className="secondary-content"
+  >
+    <a
+      className="tech-delete"
+      href="#!"
+      onClick={[Function]}
+    >
+      <i
+        className="material-icons grey-text"
+      >
+        delete
+      </i>
+    </a>
+  </span>
+</li>
+`;

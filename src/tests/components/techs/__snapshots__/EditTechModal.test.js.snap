@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render EditTechModal correctly 1`] = `
+<div
+  className="modal"
+  id="edit-tech-modal"
+>
+  <TechForm
+    onSubmit={[Function]}
+  />
+</div>
+`;

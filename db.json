@@ -1,0 +1,33 @@
+{
+  "logs": [
+    {
+      "id": 2,
+      "message": "Replaced network card",
+      "tech": "Sara Wilson",
+      "attention": false,
+      "date": "2019-08-10T09:18:55.422Z"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Tony",
+      "lastName": "Stark",
+      "id": 4
+    },
+    {
+      "firstName": "Anna",
+      "lastName": "Smith",
+      "id": 6
+    }
+  ]
+}

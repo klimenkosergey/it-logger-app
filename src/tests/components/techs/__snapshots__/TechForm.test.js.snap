@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TechForm correctly 1`] = `
+<Fragment>
+  <div
+    className="modal-content"
+  >
+    <h4
+      className="center"
+    >
+      Add
+       Technician
+    </h4>
+    <div
+      className="col s12"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="input-field col s6"
+        >
+          <input
+            name="firstName"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <label
+            className="active"
+            htmlFor="firstName"
+          >
+            First Name
+          </label>
+        </div>
+        <div
+          className="input-field col s6"
+        >
+          <input
+            name="lastName"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <label
+            className="active"
+            htmlFor="lastName"
+          >
+            Last Name
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="modal-footer"
+  >
+    <a
+      className="waves-light blue btn"
+      href="#!"
+      onClick={[Function]}
+    >
+      Submit
+    </a>
+  </div>
+</Fragment>
+`;
+
+exports[`should render TechForm with provided tech 1`] = `
+<Fragment>
+  <div
+    className="modal-content"
+  >
+    <h4
+      className="center"
+    >
+      Edit
+       Technician
+    </h4>
+    <div
+      className="col s12"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="input-field col s6"
+        >
+          <input
+            name="firstName"
+            onChange={[Function]}
+            type="text"
+            value="Tony"
+          />
+          <label
+            className="active"
+            htmlFor="firstName"
+          >
+            First Name
+          </label>
+        </div>
+        <div
+          className="input-field col s6"
+        >
+          <input
+            name="lastName"
+            onChange={[Function]}
+            type="text"
+            value="Stark"
+          />
+          <label
+            className="active"
+            htmlFor="lastName"
+          >
+            Last Name
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="modal-footer"
+  >
+    <a
+      className="waves-light blue btn"
+      href="#!"
+      onClick={[Function]}
+    >
+      Submit
+    </a>
+  </div>
+</Fragment>
+`;

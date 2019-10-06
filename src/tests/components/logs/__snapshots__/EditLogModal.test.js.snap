@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders EditLogModal correctly 1`] = `
+<div
+  className="modal"
+  id="edit-log-modal"
+>
+  <LogForm
+    date="2019-08-15T10:27:16.427Z"
+    id={1}
+    message="Fixed hard drive"
+    onSubmit={[Function]}
+    tech="Tony Stark"
+  />
+</div>
+`;
