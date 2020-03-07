@@ -1,9 +1,30 @@
 {
   "logs": [
     {
+      "id": 1,
+      "message": "Replaced hard drive",
+      "tech": "Tony Stark",
+      "attention": false,
+      "date": "2019-08-10T09:18:55.422Z"
+    },
+    {
       "id": 2,
       "message": "Replaced network card",
       "tech": "Sara Wilson",
+      "attention": false,
+      "date": "2019-08-10T09:18:55.422Z"
+    },
+    {
+      "id": 3,
+      "message": "Replaced network card",
+      "tech": "Sara Wilson",
+      "attention": true,
+      "date": "2019-08-10T09:18:55.422Z"
+    },
+    {
+      "id": 4,
+      "message": "Replaced network card",
+      "tech": "Anna Smith",
       "attention": false,
       "date": "2019-08-10T09:18:55.422Z"
     }
